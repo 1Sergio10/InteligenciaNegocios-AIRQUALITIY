@@ -12,12 +12,12 @@ CSS = f"""
 @font-face {{ font-family: FrI; src: url('{font("fraunces-latin-wght-italic")}'); font-weight: 100 900; }}
 @font-face {{ font-family: Mono; src: url('{font("ibm-plex-mono-latin-400")}'); font-weight: 400; }}
 @font-face {{ font-family: Mono; src: url('{font("ibm-plex-mono-latin-500")}'); font-weight: 500; }}
-body {{ margin:0; background:#efe9dc; }}
+body {{ margin:0; background:#ffffff; }}
 .ti {{ font: 600 30px Fr; fill:#182a3f; }} .sub {{ font: italic 400 17px FrI; fill:#4a5568; }}
-.h {{ font: 600 19px Fr; fill:#182a3f; }} .hh {{ font: 600 19px Fr; fill:#efe9dc; }} .m {{ font: 400 13px Mono; fill:#182a3f; }} .mm {{ font: 500 13px Mono; fill:#182a3f; }}
+.h {{ font: 600 19px Fr; fill:#182a3f; }} .hh {{ font: 600 19px Fr; fill:#ffffff; }} .m {{ font: 400 13px Mono; fill:#182a3f; }} .mm {{ font: 500 13px Mono; fill:#182a3f; }}
 .g {{ font: 400 12px Mono; fill:#6b6552; }} .oc {{ font: 500 13px Mono; fill:#b4532a; }} .vd {{ font: 500 13px Mono; fill:#2b7a69; }}
 """
-INK, OCRE, VERDE, PAPEL, LIN = "#182a3f", "#b4532a", "#2b7a69", "#efe9dc", "#cfc6b0"
+INK, OCRE, VERDE, PAPEL, LIN = "#182a3f", "#b4532a", "#2b7a69", "#ffffff", "#c9ced6"
 
 def wrap(w, h, body, title, sub):
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}"><style>{CSS}</style>
@@ -35,7 +35,7 @@ def arch():
     # lane aire
     b.append(f'<text x="40" y="112" class="g">CAMINO DEL AIRE</text>')
     X0, X1, Y, H = 60, 1540, 150, 150
-    b.append(duct(X0, Y, X1 - X0, H, fill="#f6f1e4"))
+    b.append(duct(X0, Y, X1 - X0, H, fill="#f1f3f6"))
     stations = [(150, "① Admisión", "PM2.5 · PM10 · CO₂ · CO · COVT", "3 lecturas, 20 s"),
                 (520, "② Cámara de mezcla", "V = 12 m³ · Q = 180 m³/h", "recirculación"),
                 (1030, "③ Tren de filtros", "G4 · HEPA · carbón · CAT · ABS", "η por paso, en serie"),
@@ -108,7 +108,7 @@ def er():
         h = 46 + len(rows) * 21
         pos[k] = (x, y, w, h)
         dash = ' stroke-dasharray="6 4"' if k.startswith("vw") else ""
-        b.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="#f6f1e4" stroke="{col}" stroke-width="2"{dash}/>')
+        b.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="#f1f3f6" stroke="{col}" stroke-width="2"{dash}/>')
         b.append(f'<path d="M{x} {y} h{w} v34 h-{w}z" fill="{col}"/><text x="{x+14}" y="{y+23}" class="hh">{k}</text>')
         for i, r in enumerate(rows):
             b.append(f'<text x="{x+14}" y="{y+58+i*21}" class="m">{r}</text>')
