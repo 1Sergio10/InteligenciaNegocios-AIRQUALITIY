@@ -1,0 +1,589 @@
+{
+ "kpis": {
+  "lotes": 320,
+  "desde": "2026-10-11T03:08:20",
+  "hasta": "2026-11-19T17:32:10",
+  "pm25": {
+   "entrada": 83.3790625,
+   "salida": 7.8483333333333345,
+   "reduccion": 90.58716529304543,
+   "mediana_reduccion_lote": 92.39150111495411,
+   "unidad": "µg/m³"
+  },
+  "pm10": {
+   "entrada": 127.33416666666668,
+   "salida": 10.402500000000002,
+   "reduccion": 91.83055084718032,
+   "mediana_reduccion_lote": 91.41460366583468,
+   "unidad": "µg/m³"
+  },
+  "co2": {
+   "entrada": 1321.8645833333333,
+   "salida": 1012.6229166666668,
+   "reduccion": 23.394352989385247,
+   "mediana_reduccion_lote": 2.2305542832485923,
+   "unidad": "ppm"
+  },
+  "co": {
+   "entrada": 9.496489583333334,
+   "salida": 5.544833333333333,
+   "reduccion": 41.61175785350508,
+   "mediana_reduccion_lote": 16.046597113174354,
+   "unidad": "ppm"
+  },
+  "reduccion_global": 62.4617743825116,
+  "tasa_cumplimiento": 50.0,
+  "t_meta_mediana_min": 9.75,
+  "t_meta_alcanzada_pct": 48.75,
+  "duracion_media_min": 20.15,
+  "clasificaciones": {
+   "CUMPLE_OMS": 121,
+   "PARCIAL": 110,
+   "INSUFICIENTE": 50,
+   "SIN_NECESIDAD": 22,
+   "CUMPLE_NORMA": 17
+  }
+ },
+ "trenes": [
+  {
+   "firma": "ABS-CO2+CARB-ACT+CAT-CO+HEPA-H13",
+   "n": 5,
+   "reduccion_mediana": 87.37305424180946,
+   "cumplimiento": 100.0,
+   "por_contaminante": {
+    "pm25": 93.87978142076503,
+    "pm10": 93.65830572645528,
+    "co2": 72.0743095569243,
+    "co": 94.23558897243109
+   }
+  },
+  {
+   "firma": "CARB-ACT+CAT-CO+HEPA-H13+PRE-G4",
+   "n": 15,
+   "reduccion_mediana": 85.9698787529785,
+   "cumplimiento": 86.66666666666667,
+   "por_contaminante": {
+    "pm25": 94.5079086115993,
+    "pm10": 95.17708033400518,
+    "co2": 1.2533875338753386,
+    "co": 70.31460674157304
+   }
+  },
+  {
+   "firma": "ABS-CO2+CARB-ACT+HEPA-H13",
+   "n": 20,
+   "reduccion_mediana": 80.33488101848987,
+   "cumplimiento": 90.0,
+   "por_contaminante": {
+    "pm25": 91.09544620051086,
+    "pm10": 91.92118957668595,
+    "co2": 68.12654856886013,
+    "co": 16.553030303030305
+   }
+  },
+  {
+   "firma": "CAT-CO+HEPA-H13+PRE-G4",
+   "n": 3,
+   "reduccion_mediana": 80.25903689847321,
+   "cumplimiento": 66.66666666666666,
+   "por_contaminante": {
+    "pm25": 91.3304721030043,
+    "pm10": 86.34453781512606,
+    "co2": 0.7252946509519576,
+    "co": 65.6140350877193
+   }
+  },
+  {
+   "firma": "CARB-ACT+CAT-CO+HEPA-H13",
+   "n": 8,
+   "reduccion_mediana": 79.798711376992,
+   "cumplimiento": 87.5,
+   "por_contaminante": {
+    "pm25": 89.51400419596402,
+    "pm10": 88.76443259741748,
+    "co2": -0.23977806050667905,
+    "co": 60.41822677499117
+   }
+  },
+  {
+   "firma": "ABS-CO2+CARB-ACT+CAT-CO+HEPA-H13+PRE-G4",
+   "n": 74,
+   "reduccion_mediana": 79.17557061612189,
+   "cumplimiento": 74.32432432432432,
+   "por_contaminante": {
+    "pm25": 95.55508424796463,
+    "pm10": 94.65719798881,
+    "co2": 35.52236016821875,
+    "co": 80.60922919483292
+   }
+  },
+  {
+   "firma": "ABS-CO2+CAT-CO+HEPA-H13",
+   "n": 4,
+   "reduccion_mediana": 77.97212575684705,
+   "cumplimiento": 75.0,
+   "por_contaminante": {
+    "pm25": 90.6723230810822,
+    "pm10": 89.2326876599015,
+    "co2": 33.95219709397703,
+    "co": 75.93458805822593
+   }
+  },
+  {
+   "firma": "CAT-CO+HEPA-H13",
+   "n": 14,
+   "reduccion_mediana": 72.40368187133974,
+   "cumplimiento": 85.71428571428571,
+   "por_contaminante": {
+    "pm25": 84.68468468468468,
+    "pm10": 84.50162795688794,
+    "co2": -0.36608959782937767,
+    "co": 51.06496048807437
+   }
+  },
+  {
+   "firma": "CAT-CO+PRE-G4",
+   "n": 1,
+   "reduccion_mediana": 69.29365109082879,
+   "cumplimiento": 0.0,
+   "por_contaminante": {
+    "pm25": 37.44760130414531,
+    "pm10": 83.02925989672978,
+    "co2": 0.24570024570025328,
+    "co": 87.40409207161126
+   }
+  },
+  {
+   "firma": "ABS-CO2+CAT-CO+PRE-G4",
+   "n": 1,
+   "reduccion_mediana": 63.344559906753034,
+   "cumplimiento": 0.0,
+   "por_contaminante": {
+    "pm25": 30.382978723404243,
+    "pm10": 78.67357001972387,
+    "co2": 27.317290552584673,
+    "co": 80.97713097713097
+   }
+  },
+  {
+   "firma": "ABS-CO2+HEPA-H13+PRE-G4",
+   "n": 2,
+   "reduccion_mediana": 61.75809264368658,
+   "cumplimiento": 0.0,
+   "por_contaminante": {
+    "pm25": 91.96304536113988,
+    "pm10": 93.4659135190413,
+    "co2": 15.355715391406356,
+    "co": -0.1546809491214387
+   }
+  },
+  {
+   "firma": "HEPA-H13",
+   "n": 82,
+   "reduccion_mediana": 57.12931317103413,
+   "cumplimiento": 28.04878048780488,
+   "por_contaminante": {
+    "pm25": 93.09189774919031,
+    "pm10": 91.79355445886344,
+    "co2": -0.1161224348677159,
+    "co": -2.2122948341284143
+   }
+  },
+  {
+   "firma": "HEPA-H13+PRE-G4",
+   "n": 2,
+   "reduccion_mediana": 56.40877561019174,
+   "cumplimiento": 0.0,
+   "por_contaminante": {
+    "pm25": 97.02499325734415,
+    "pm10": 96.28786343805413,
+    "co2": 1.8693453435989216,
+    "co": -0.7115194510039724
+   }
+  },
+  {
+   "firma": "CARB-ACT+CAT-CO+PRE-G4",
+   "n": 3,
+   "reduccion_mediana": 56.35503967145766,
+   "cumplimiento": 33.33333333333333,
+   "por_contaminante": {
+    "pm25": 33.9022498060512,
+    "pm10": 79.75263398992212,
+    "co2": 1.163166397415194,
+    "co": 82.05701509223029
+   }
+  },
+  {
+   "firma": "CARB-ACT+HEPA-H13",
+   "n": 52,
+   "reduccion_mediana": 54.82761817461434,
+   "cumplimiento": 13.461538461538462,
+   "por_contaminante": {
+    "pm25": 93.7870552309014,
+    "pm10": 91.86198205040526,
+    "co2": 0.3866505595991776,
+    "co": 11.875294533458991
+   }
+  },
+  {
+   "firma": "ABS-CO2+CARB-ACT",
+   "n": 6,
+   "reduccion_mediana": 50.877406053745794,
+   "cumplimiento": 83.33333333333334,
+   "por_contaminante": {
+    "pm25": 12.197293447293443,
+    "pm10": 32.8208651399491,
+    "co2": 51.94863228430074,
+    "co": 13.287387584659655
+   }
+  },
+  {
+   "firma": "ABS-CO2+CARB-ACT+CAT-CO",
+   "n": 1,
+   "reduccion_mediana": 43.88129447323667,
+   "cumplimiento": 100.0,
+   "por_contaminante": {
+    "pm25": 23.100303951367795,
+    "pm10": 38.737201365187715,
+    "co2": 64.66228499510558,
+    "co": 88.6609071274298
+   }
+  },
+  {
+   "firma": "ABS-CO2+CARB-ACT+PRE-G4",
+   "n": 1,
+   "reduccion_mediana": 42.8128129786863,
+   "cumplimiento": 0.0,
+   "por_contaminante": {
+    "pm25": 37.66513056835636,
+    "pm10": 81.95529711066692,
+    "co2": 34.237288135593225,
+    "co": 8.818011257035629
+   }
+  },
+  {
+   "firma": "PRE-G4",
+   "n": 3,
+   "reduccion_mediana": 39.26558035858559,
+   "cumplimiento": 33.33333333333333,
+   "por_contaminante": {
+    "pm25": 34.43489755452743,
+    "pm10": 80.84687346134909,
+    "co2": 0.22050716648289725,
+    "co": 2.5149700598802394
+   }
+  },
+  {
+   "firma": "CARB-ACT+CAT-CO",
+   "n": 2,
+   "reduccion_mediana": 35.9650684014891,
+   "cumplimiento": 0.0,
+   "por_contaminante": {
+    "pm25": 13.995792874924978,
+    "pm10": 30.9253779432927,
+    "co2": 2.3147814911438247,
+    "co": 72.52606872827606
+   }
+  },
+  {
+   "firma": "CARB-ACT+PRE-G4",
+   "n": 3,
+   "reduccion_mediana": 35.94435209959768,
+   "cumplimiento": 33.33333333333333,
+   "por_contaminante": {
+    "pm25": 32.62642740619902,
+    "pm10": 76.15769712140175,
+    "co2": -0.6830601092896238,
+    "co": 8.368408021787577
+   }
+  },
+  {
+   "firma": "CARB-ACT+HEPA-H13+PRE-G4",
+   "n": 2,
+   "reduccion_mediana": 34.95044771052049,
+   "cumplimiento": 0.0,
+   "por_contaminante": {
+    "pm25": 91.00952882708725,
+    "pm10": 88.2770937483748,
+    "co2": -0.014233930676732509,
+    "co": 13.6061684460261
+   }
+  },
+  {
+   "firma": "ABS-CO2+CAT-CO",
+   "n": 1,
+   "reduccion_mediana": 29.49389264934432,
+   "cumplimiento": 0.0,
+   "por_contaminante": {
+    "pm25": 4.934687953555894,
+    "pm10": 5.607476635514019,
+    "co2": 54.05309734513275,
+    "co": 66.39676113360325
+   }
+  },
+  {
+   "firma": "CAT-CO",
+   "n": 3,
+   "reduccion_mediana": 26.561312007804506,
+   "cumplimiento": 33.33333333333333,
+   "por_contaminante": {
+    "pm25": 2.3622047244094446,
+    "pm10": 12.074534161490668,
+    "co2": 2.2381378692927445,
+    "co": 71.86212064443612
+   }
+  },
+  {
+   "firma": "ABS-CO2",
+   "n": 8,
+   "reduccion_mediana": 18.48010320070801,
+   "cumplimiento": 62.5,
+   "por_contaminante": {
+    "pm25": 6.04063018242122,
+    "pm10": 9.707850707850714,
+    "co2": 29.642375168690954,
+    "co": 1.0150066810566405
+   }
+  },
+  {
+   "firma": "CARB-ACT",
+   "n": 4,
+   "reduccion_mediana": 18.20475168413873,
+   "cumplimiento": 0.0,
+   "por_contaminante": {
+    "pm25": 18.456937799043065,
+    "pm10": 42.72745680251191,
+    "co2": 0.5715903693690405,
+    "co": 14.183738120380152
+   }
+  }
+ ],
+ "modelo": {
+  "n_total": 320,
+  "n_entrenamiento": 224,
+  "n_prueba": 96,
+  "n_evaluados": 51,
+  "n_censurados": 45,
+  "mae_modelo_min": 0.9693853742248886,
+  "mae_a_priori_min": 2.8495369373943604,
+  "mae_baseline_min": 7.166666666666667,
+  "r2_modelo": 0.9706507737379497,
+  "sesgo_modelo_min": -0.3937225145709353
+ },
+ "alertas": {
+  "por_tipo": {
+   "ANOMALIA_INGRESO": 4,
+   "BAJA_EFICIENCIA": 65,
+   "FILTRO_NO_APLICABLE": 131,
+   "INGRESO_SOBRE_NORMA": 701,
+   "SALIDA_SOBRE_NORMA": 208
+  },
+  "por_severidad": {
+   "alta": 378,
+   "critica": 443,
+   "media": 288
+  }
+ },
+ "reloj": [
+  {
+   "hora": 0,
+   "entrada": 58.8,
+   "salida": 25.200000000000003,
+   "n": 2
+  },
+  {
+   "hora": 1,
+   "entrada": 14.600000000000001,
+   "salida": 7.233333333333334,
+   "n": 2
+  },
+  {
+   "hora": 2,
+   "entrada": 48.29166666666667,
+   "salida": 20.3,
+   "n": 4
+  },
+  {
+   "hora": 3,
+   "entrada": 49.66666666666667,
+   "salida": 5.428571428571429,
+   "n": 7
+  },
+  {
+   "hora": 4,
+   "entrada": 72.9,
+   "salida": 2.3000000000000003,
+   "n": 1
+  },
+  {
+   "hora": 5,
+   "entrada": 80.99666666666667,
+   "salida": 3.3833333333333337,
+   "n": 10
+  },
+  {
+   "hora": 6,
+   "entrada": 60.611111111111114,
+   "salida": 4.374074074074074,
+   "n": 9
+  },
+  {
+   "hora": 7,
+   "entrada": 71.14444444444445,
+   "salida": 13.907407407407408,
+   "n": 18
+  },
+  {
+   "hora": 8,
+   "entrada": 53.35416666666667,
+   "salida": 2.9541666666666666,
+   "n": 16
+  },
+  {
+   "hora": 9,
+   "entrada": 113.75733333333334,
+   "salida": 11.405333333333335,
+   "n": 25
+  },
+  {
+   "hora": 10,
+   "entrada": 67.97777777777779,
+   "salida": 3.68,
+   "n": 15
+  },
+  {
+   "hora": 11,
+   "entrada": 92.44035087719298,
+   "salida": 10.168421052631578,
+   "n": 19
+  },
+  {
+   "hora": 12,
+   "entrada": 72.965,
+   "salida": 4.265000000000001,
+   "n": 20
+  },
+  {
+   "hora": 13,
+   "entrada": 62.93777777777778,
+   "salida": 6.104444444444445,
+   "n": 30
+  },
+  {
+   "hora": 14,
+   "entrada": 105.631884057971,
+   "salida": 7.708695652173914,
+   "n": 23
+  },
+  {
+   "hora": 15,
+   "entrada": 123.88431372549019,
+   "salida": 15.749019607843138,
+   "n": 17
+  },
+  {
+   "hora": 16,
+   "entrada": 92.52799999999999,
+   "salida": 5.561333333333335,
+   "n": 25
+  },
+  {
+   "hora": 17,
+   "entrada": 105.07936507936509,
+   "salida": 6.36031746031746,
+   "n": 21
+  },
+  {
+   "hora": 18,
+   "entrada": 124.55128205128207,
+   "salida": 15.569230769230769,
+   "n": 13
+  },
+  {
+   "hora": 19,
+   "entrada": 93.38333333333333,
+   "salida": 8.033333333333333,
+   "n": 4
+  },
+  {
+   "hora": 20,
+   "entrada": 50.58095238095239,
+   "salida": 7.166666666666666,
+   "n": 14
+  },
+  {
+   "hora": 21,
+   "entrada": 67.99166666666667,
+   "salida": 4.533333333333333,
+   "n": 8
+  },
+  {
+   "hora": 22,
+   "entrada": 15.144444444444446,
+   "salida": 4.833333333333333,
+   "n": 3
+  },
+  {
+   "hora": 23,
+   "entrada": 79.85714285714286,
+   "salida": 3.504761904761905,
+   "n": 14
+  }
+ ],
+ "escenario": [
+  {
+   "escenario": "aire_de_referencia",
+   "n": 22,
+   "isr": 0.52,
+   "red": 42.3
+  },
+  {
+   "escenario": "industrial",
+   "n": 72,
+   "isr": 4.66,
+   "red": 65.24
+  },
+  {
+   "escenario": "quema_biomasa",
+   "n": 38,
+   "isr": 6.06,
+   "red": 70.34
+  },
+  {
+   "escenario": "recinto_ocupado",
+   "n": 97,
+   "isr": 2.56,
+   "red": 52.84
+  },
+  {
+   "escenario": "via_urbana",
+   "n": 91,
+   "isr": 2.18,
+   "red": 72.1
+  }
+ ],
+ "niveles": {
+  "Muy alto": 143,
+  "Crítico": 84,
+  "Alto": 63,
+  "Moderado": 28,
+  "Bajo": 2
+ },
+ "niveles_sal": {
+  "Moderado": 142,
+  "Muy alto": 69,
+  "Alto": 60,
+  "Crítico": 31,
+  "Bajo": 18
+ },
+ "hepa_pm25_red": 95.305260825517,
+ "sinhepa_pm25_red": 21.630901287553684,
+ "co_cat": 77.65545735055697,
+ "co_nocat": 5.078860939263519,
+ "co2_abs": 51.161930881255316,
+ "co2_noabs": 0.3064022630181351,
+ "n_hepa": 283,
+ "n_cat": 135,
+ "n_abs": 123,
+ "n_mediciones": 14816
+}

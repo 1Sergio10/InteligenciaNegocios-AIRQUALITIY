@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: alento
+      POSTGRES_PASSWORD: alento
+      POSTGRES_DB: alento
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U alento"]
+      interval: 3s
+      retries: 20
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+  app:
+    build: .
+    depends_on:
+      db: { condition: service_healthy }
+    environment:
+      ALENTO_DATABASE_URL: postgresql+psycopg://alento:alento@db:5432/alento
+    ports: ["8000:8000"]
+volumes:
+  pgdata:
